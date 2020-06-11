@@ -1,4 +1,4 @@
-# Examination paper variants generator
+# Генератор вариантов экзаменационных билетов (Examination paper variants generator)
 
 --EN--
 This programm is presented in two variations.
