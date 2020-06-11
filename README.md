@@ -1,4 +1,4 @@
-# exap-paper-variants-generator
+# Examination paper variants generator
 
 --EN--
 This programm is presented in two variations.
