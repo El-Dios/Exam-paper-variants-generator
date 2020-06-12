@@ -2,18 +2,16 @@
 
 # Form implementation generated from reading ui file 'Generator.ui'
 #
-# Created by: PyQt5 UI code generator 5.14.1
+# Created by: PyQt5 UI code generator 5.9.2
 #
 # WARNING! All changes made in this file will be lost!
 
-
 from PyQt5 import QtCore, QtGui, QtWidgets
-
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(674, 937)
+        MainWindow.resize(576, 812)
         font = QtGui.QFont()
         font.setPointSize(14)
         MainWindow.setFont(font)
@@ -21,15 +19,15 @@ class Ui_MainWindow(object):
         MainWindow.setContextMenuPolicy(QtCore.Qt.DefaultContextMenu)
         MainWindow.setAcceptDrops(False)
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap("E:/Archivus/Georges_documents/Documents/Exam papers generator/icon.ico"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon.addPixmap(QtGui.QPixmap("../icon.ico"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         MainWindow.setWindowIcon(icon)
         MainWindow.setStyleSheet("background-color: #ebf2fc")
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.textBrowser = QtWidgets.QTextBrowser(self.centralwidget)
-        self.textBrowser.setGeometry(QtCore.QRect(30, 100, 611, 731))
+        self.textBrowser.setGeometry(QtCore.QRect(30, 100, 521, 611))
         font = QtGui.QFont()
-        font.setPointSize(14)
+        font.setPointSize(12)
         self.textBrowser.setFont(font)
         self.textBrowser.setAutoFillBackground(False)
         self.textBrowser.setStyleSheet("background-color: white;\n"
@@ -38,7 +36,7 @@ class Ui_MainWindow(object):
 "line-height: 1.5;")
         self.textBrowser.setObjectName("textBrowser")
         self.pushButton = QtWidgets.QPushButton(self.centralwidget)
-        self.pushButton.setGeometry(QtCore.QRect(220, 840, 221, 51))
+        self.pushButton.setGeometry(QtCore.QRect(170, 720, 221, 51))
         self.pushButton.setStyleSheet("QPushButton {\n"
 "    font: 18pt \"Century Gothic\";\n"
 "    background-color: #85eb63;\n"
@@ -90,7 +88,7 @@ class Ui_MainWindow(object):
 "")
         self.label_2.setObjectName("label_2")
         self.label_4 = QtWidgets.QLabel(self.centralwidget)
-        self.label_4.setGeometry(QtCore.QRect(0, 880, 71, 20))
+        self.label_4.setGeometry(QtCore.QRect(0, 750, 71, 20))
         font = QtGui.QFont()
         font.setFamily("Centaur")
         font.setPointSize(14)
@@ -98,7 +96,7 @@ class Ui_MainWindow(object):
         self.label_4.setObjectName("label_4")
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
-        self.menubar.setGeometry(QtCore.QRect(0, 0, 674, 21))
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 576, 21))
         self.menubar.setObjectName("menubar")
         MainWindow.setMenuBar(self.menubar)
         self.statusbar = QtWidgets.QStatusBar(MainWindow)
@@ -114,9 +112,10 @@ class Ui_MainWindow(object):
         self.textBrowser.setHtml(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:14pt; font-weight:400; font-style:normal;\">\n"
+"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\"-qt-paragraph-type:empty; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8.25pt;\"><br /></p></body></html>"))
         self.pushButton.setText(_translate("MainWindow", "Сгенерировать"))
         self.label.setText(_translate("MainWindow", "<html><head/><body><p>Введите количество студентов</p></body></html>"))
         self.label_2.setText(_translate("MainWindow", "<html><head/><body><p>Введите количество билетов</p></body></html>"))
         self.label_4.setText(_translate("MainWindow", "©ElDios"))
+
